@@ -18,31 +18,35 @@ Setup Instructions
 Prerequisites
 Node.js and npm installed.
 Git for cloning the repository.
-
-
 Any modern web browser (Google Chrome, Firefox, etc.).
 Installation
 Clone the repository:
 
-
+bash
+Copy code
 git clone https://github.com/yourusername/lead-management-dashboard.git
 Navigate to the project directory:
 
-
+bash
+Copy code
 cd lead-management-dashboard
 Install dependencies:
 
-
+bash
+Copy code
 npm install
+Running the Project
 Start the development server:
 
 bash
 Copy code
 npm start
-The app will be running on http://localhost:3000.
+Once the server is running, open your browser and navigate to:
 
-Running the Project
-Once the development server is running, you can view the dashboard by visiting http://localhost:3000 in your browser.
+arduino
+Copy code
+http://localhost:3000
+You will be able to view and interact with the Lead Management Dashboard.
 
 Usage
 Dashboard: View overall lead metrics like total leads, conversion rate, and lead breakdown.
