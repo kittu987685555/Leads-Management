@@ -18,22 +18,21 @@ Setup Instructions
 Prerequisites
 Node.js and npm installed.
 Git for cloning the repository.
+
+
 Any modern web browser (Google Chrome, Firefox, etc.).
 Installation
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/yourusername/lead-management-dashboard.git
 Navigate to the project directory:
 
-bash
-Copy code
+
 cd lead-management-dashboard
 Install dependencies:
 
-bash
-Copy code
+
 npm install
 Start the development server:
 
