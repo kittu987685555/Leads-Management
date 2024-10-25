@@ -1,0 +1,140 @@
+.dashboard {
+  margin: 0 auto;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 155px;
+  grid-template-columns: repeat(auto-fit,minmax(10em,1fr));
+}
+
+.conversion-section {
+  background-color: #e0f7fa;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 30%; 
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.conversion-title {
+  font-size: 1.5em;
+  color: #00796b;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.conversion-value {
+  font-size: 1.5em;
+  color: #4CAF50;
+  font-weight: 600;
+}
+
+.dashboard-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 80px;
+  padding-left: 230px;
+}
+
+.widget {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: auto;
+}
+
+.widget canvas {
+  max-height: 250px;
+  max-width: 100%;
+}
+
+.leads-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.leads-table th, 
+.leads-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.leads-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.kpi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.kpi-value {
+  font-size: 1.5em;
+  color: #4CAF50;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.kpi-section {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.kpi-card {
+  background-color: aliceblue;
+  padding: 20px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+    padding-left: 0;
+  }
+
+  .widget canvas {
+    max-height: 200px;
+  }
+
+  .kpi-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .conversion-section {
+    width: 80%; /* Adjust width for smaller screens */
+    height: auto; /* Allow height to adjust dynamically */
+    justify-content: center; /* Adjust vertical alignment */
+  }
+
+  .kpi-card {
+    width: 90%; /* Ensure cards fit within smaller screens */
+  }
+}

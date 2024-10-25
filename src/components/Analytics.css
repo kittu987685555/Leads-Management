@@ -1,0 +1,91 @@
+/* src/components/Analytics.css */
+
+/* Container styling */
+.analytics {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.analytics h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff; /* Accent color */
+    font-weight: 700; /* Bolder font */
+    font-family: 'Roboto', sans-serif; /* Google Font */
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white; /* Card background */
+    margin: 10px auto; /* Center horizontally with spacing */
+    width: 120px; /* Fixed width */
+    height: 150px; /* Fixed height */
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Card content alignment */
+.card-body {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.card-body h5 {
+    font-size: 1.1rem; /* Slightly smaller font size */
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #343a40; /* Darker color for text */
+}
+
+.card-body p {
+    font-size: 1.2rem; /* Slightly smaller font size */
+    font-weight: 700;
+    color: #495057;
+}
+
+/* Row styling for vertical layout */
+.rowst {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: row;
+    width: 81%;
+    padding-left: 20%;
+       
+}
+
+@media (max-width: 768px) {
+    .analytics .row {
+        flex-direction: column; /* Ensuring column layout on smaller screens */
+    }
+}
+
+/* Button style */
+.btn {
+    background-color: #007bff; /* Primary color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block; /* Center the button */
+    margin: 20px auto; /* Center horizontally */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker on hover */
+}
