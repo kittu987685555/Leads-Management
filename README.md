@@ -1,5 +1,8 @@
+
+T![Screenshot 2024-10-25 115302](https://github.com/user-attachments/assets/d03b1b8d-bd40-4380-a8b0-198cef1561b3)
+![Screenshot 2024-10-25 115253](https://github.com/user-attachments/assets/5b804451-ce91-4393-8e4d-ac5bf796098d)
 Lead Management Dashboard
-This is a Lead Management Dashboard built with React.js that allows users to view and manage lead data, track conversion rates, and visualize lead sources and statuses. The dashboard provides key metrics like total leads, converted leads, and graphical representations such as bar charts and donut charts to display lead breakdowns and statuses. It also includes functionality to export reports in CSV or PDF format.
+his is a Lead Management Dashboard built with React.js that allows users to view and manage lead data, track conversion rates, and visualize lead sources and statuses. The dashboard provides key metrics like total leads, converted leads, and graphical representations such as bar charts and donut charts to display lead breakdowns and statuses. It also includes functionality to export reports in CSV or PDF format.
 
 Features
 Conversion Rate Display: Shows the percentage of converted leads.
