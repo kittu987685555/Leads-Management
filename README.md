@@ -44,5 +44,5 @@ You will be able to view and interact with the Lead Management Dashboard.
 **Leads**: Manage and view individual lead information.
 Reports: Generate reports for lead performance.
 Export Reports: Export lead data or reports in CSV or PDF format for easy sharing and analysis.
-Future Improvements
+**Future Improvements**
 Add authentication to secure access to lead data.
